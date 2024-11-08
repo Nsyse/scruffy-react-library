@@ -2,7 +2,7 @@ import './App.css'
 import Badge from "./components/badge/Badge.jsx";
 import Sandbox from "./components/sandbox/Sandbox.jsx";
 
-function App() {
+function BadgesDemo() {
     return (
         <>
             <Sandbox>

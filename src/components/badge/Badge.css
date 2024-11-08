@@ -1,0 +1,15 @@
+
+
+.badge, .badge-background{
+    background-color: #FFFFFF;
+    display:inline-block;
+    border-radius:8px;
+}
+
+.badge{
+    padding: 8px 12px;
+}
+
+.rounded{
+    border-radius:50vh;
+}

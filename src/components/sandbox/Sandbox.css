@@ -1,0 +1,14 @@
+body{
+    background: #444;
+}
+
+.sandbox{
+    margin:auto;
+    background-color: #e3e5ea;
+    min-height: 16rem;
+    max-width: 24rem;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-around;
+}
