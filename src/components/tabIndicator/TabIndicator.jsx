@@ -1,8 +1,8 @@
 import "./tabIndicator.css"
 
-export default function TabIndicator({children}) {
+export default function TabIndicator({children, color}) {
 
-    return <div className="tabIndicator">
+    return <div className="tabIndicator" style={{backgroundColor:color}}>
         {children}
     </div>
 }
