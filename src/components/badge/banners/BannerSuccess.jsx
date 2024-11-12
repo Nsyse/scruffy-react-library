@@ -1,7 +1,7 @@
 import Banner from "./Banner.jsx";
 import { GrStatusGood } from "react-icons/gr";
 
-export default function BannerSuccess({children, textColor = "#065e45", isRound = false, title = "Info"}) {
+export default function BannerSuccess({children, textColor = "#065e45", isRound = false, title = "Success"}) {
 
     const icon = <GrStatusGood/>
 

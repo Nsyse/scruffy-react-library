@@ -1,7 +1,7 @@
 import Banner from "./Banner.jsx";
 import { TiWarning } from "react-icons/ti";
 
-export default function BannerWarning({children, textColor = "#b35209", isRound = false, title = "Info"}) {
+export default function BannerWarning({children, textColor = "#b35209", isRound = false, title = "Warning"}) {
 
     const icon = <TiWarning/>
 
