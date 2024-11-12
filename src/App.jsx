@@ -2,10 +2,9 @@ import './App.css'
 import Badge from "./components/badge/Badge.jsx";
 import Sandbox from "./components/sandbox/Sandbox.jsx";
 import Banner from "./components/badge/banners/index.jsx";
-import Card from "./components/card/Card.jsx";
 import TitledTextButtonCard from "./components/card/TitledTextButtonCard/TitledTextButtonCard.jsx";
-import TabIndicator from "./components/tabIndicator/TabIndicator.jsx";
-import { MdFileUpload } from "react-icons/md";
+import {MdFileUpload} from "react-icons/md";
+import {Testimonial} from "./components/Testimonial/Testimonial.jsx";
 
 function App() {
     return (
@@ -20,6 +19,9 @@ function App() {
                     <p>Button description</p>
                     <p>Additional longer description</p>
                 </TitledTextButtonCard>
+                <Testimonial image ={<img alt={"drawing of Leon"} src={"src/assets/SampleIcon.jpg"} className={"testimonialPhoto"}/>}>
+
+                </Testimonial>
             </Sandbox>
         </>
     )

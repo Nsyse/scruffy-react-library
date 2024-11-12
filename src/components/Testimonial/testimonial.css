@@ -1,0 +1,28 @@
+.testimonial {
+    display: flex;
+    /*justify-content: flex-start;*/
+    background-color: #218398;
+    width: 100%;
+    margin: 20px;
+    padding: 0;
+    position: relative;
+}
+
+.testimonialTextBlock {
+    background-color: #444444;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    left: 0;
+    align-self: center;
+}
+
+.testimonialPhoto {
+    width: 200px;
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2em;
+    margin-right: 1em;
+    float: left;
+}
