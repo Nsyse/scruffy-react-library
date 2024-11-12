@@ -4,7 +4,7 @@
     flex-direction: column;
     background-color: whitesmoke;
     border-radius: 2vh;
-    padding: 2em;
+    padding: 2em 1.5em 1em 1.5em;
     margin-top: 1em;
     filter: drop-shadow(2px 2px 4px #444444);
     color: #111827;
