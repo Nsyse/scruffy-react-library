@@ -1,8 +1,7 @@
 
 
-.badge, .badge-background{
+.badge, .blankBackground{
     background-color: #FFFFFF;
-    display:inline-block;
     border-radius:8px;
 }
 
@@ -12,4 +11,9 @@
 
 .rounded{
     border-radius:50vh;
+}
+
+.fullWidth{
+    display: block;
+    width: 100%;
 }
