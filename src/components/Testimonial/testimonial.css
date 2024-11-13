@@ -1,28 +1,89 @@
-.testimonial {
-    display: flex;
-    /*justify-content: flex-start;*/
-    background-color: #218398;
+.testimonialContainer{
+    min-height: var(--imageHeight);
     width: 100%;
-    margin: 20px;
-    padding: 0;
-    position: relative;
+    display:flex;
+    align-items: center;
+    color:whitesmoke;
+}
+
+.testimonialContainerMobile{
+    /*background-color: #b13131;*/
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color:whitesmoke;
+    padding-top:calc(var(--imageHeight)/2);
+}
+
+.testimonialBannerMobile{
+    background-color: #613b7d;
+    flex-grow: 0;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: #444444 0px 1px 4px 2px;
+}
+
+.testimonialBanner{
+    background-color: #613b7d;
+    flex-grow: 0;
+    width:100%;
+    display:flex;
+    align-items: center;
+    box-shadow: #444444 0px 1px 4px 2px;
+}
+
+.photoContainer{
+    height:1px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2em;
+}
+
+.testimonialPhoto{
+    height: var(--imageHeight);
+    border-radius:16px;
+    filter: drop-shadow(2px 2px 4px #444444);
+    text-align: center;
+    line-height: var(--imageHeight);
+}
+
+.title {
+    margin:0.2em 0px;
+    opacity: 50%;
+}
+
+.quoteIcon {
+    font-size:2em;
+    margin:0;
+    padding:4px;
+    opacity:0.5;
 }
 
 .testimonialTextBlock {
-    background-color: #444444;
-    display: flex;
+    margin-left:1em;
+    display:flex;
     flex-direction: column;
-    justify-content: space-around;
-    left: 0;
-    align-self: center;
 }
 
-.testimonialPhoto {
-    width: 200px;
-    display: inline-block;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 2em;
-    margin-right: 1em;
-    float: left;
+.testimonialTextBlockMobile {
+    padding-top:calc(var(--imageHeight)/2);
+    align-items: center;
+}
+
+.quoteBlock {
+    white-space: pre-line;
+    margin-top:0px;
+    max-width: 80%;
+}
+
+.quoteBlock > p {
+    margin-top:0px;
+}
+
+.authorBlock{
+    padding-left:1em;
 }
