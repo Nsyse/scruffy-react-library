@@ -5,6 +5,7 @@ import Banner from "./components/badge/banners/index.jsx";
 import TitledTextButtonCard from "./components/card/TitledTextButtonCard/TitledTextButtonCard.jsx";
 import {MdFileUpload} from "react-icons/md";
 import Testimonial from "./components/Testimonial/index.jsx";
+import {TooltipDecorator} from "./components/Tooltip/TooltipDecorator.jsx";
 
 function App() {
     return (<>
@@ -14,10 +15,12 @@ function App() {
             <Banner.Info>This is a test informative banner.</Banner.Info>
             <Banner.Warning>This is a test warning banner.</Banner.Warning>
             <Banner.Error>This is a test error banner.</Banner.Error>
-            <TitledTextButtonCard tabIcon={<MdFileUpload/>} title={"Demo Card"}>
-                <p>Button description</p>
-                <p>Additional longer description</p>
-            </TitledTextButtonCard>
+            <TooltipDecorator tooltipText={`This is just a demo card. Clicking it will trigger a toast notification.`}>
+                <TitledTextButtonCard tabIcon={<MdFileUpload/>} title={"Demo Card"}>
+                    <p>Button description</p>
+                    <p>Additional longer description</p>
+                </TitledTextButtonCard>
+            </TooltipDecorator>
             <Testimonial
                 imageAlt="drawing of Leon"
                 imageSrc={"src/assets/SampleIcon.jpg"}
